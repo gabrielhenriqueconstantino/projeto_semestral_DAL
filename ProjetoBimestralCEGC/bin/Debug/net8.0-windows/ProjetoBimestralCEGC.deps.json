@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProjetoBimestralCEGC/1.0.0": {
+        "runtime": {
+          "ProjetoBimestralCEGC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjetoBimestralCEGC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
