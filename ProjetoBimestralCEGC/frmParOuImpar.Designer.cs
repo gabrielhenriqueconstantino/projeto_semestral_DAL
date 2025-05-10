@@ -52,13 +52,13 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Bahnschrift", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Bahnschrift", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(89, 9);
+            label1.Location = new Point(5, 9);
             label1.Name = "label1";
-            label1.Size = new Size(205, 33);
+            label1.Size = new Size(370, 29);
             label1.TabIndex = 0;
-            label1.Text = "PAR OU ÍMPAR?";
+            label1.Text = "DESCUBRA OS NÚMEROS PARES";
             // 
             // txtInicial
             // 
@@ -101,13 +101,13 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(135, 87);
+            label4.Location = new Point(159, 87);
             label4.Name = "label4";
-            label4.Size = new Size(113, 17);
+            label4.Size = new Size(62, 21);
             label4.TabIndex = 2;
-            label4.Text = " pares e ímpares.";
+            label4.Text = "PARES.";
             // 
             // btnDescobrir
             // 
