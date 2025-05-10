@@ -35,5 +35,13 @@ namespace ProjetoBimestralCEGC
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void númerosParesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmParOuImpar frm = new frmParOuImpar();
+
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

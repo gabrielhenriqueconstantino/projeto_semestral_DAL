@@ -85,6 +85,7 @@
             númerosParesToolStripMenuItem.Name = "númerosParesToolStripMenuItem";
             númerosParesToolStripMenuItem.Size = new Size(257, 22);
             númerosParesToolStripMenuItem.Text = "Números Pares";
+            númerosParesToolStripMenuItem.Click += númerosParesToolStripMenuItem_Click;
             // 
             // conversorKelvinFahrenheitToolStripMenuItem
             // 
