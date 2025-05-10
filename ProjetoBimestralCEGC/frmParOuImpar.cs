@@ -29,20 +29,16 @@ namespace ProjetoBimestralCEGC
                 }
 
                 List<int> pares = new List<int>();
-                List<int> impares = new List<int>();
 
                 for (int i = inicio; i <= fim; i++)
                 {
                     if (i % 2 == 0)
                         pares.Add(i);
-                    else
-                        impares.Add(i);
                 }
 
                 // Monta o texto de saída
-                txtResultado.Text = "Números pares: " + string.Join(", ", pares) +
-                                    Environment.NewLine +
-                                    "Números ímpares: " + string.Join(", ", impares);
+                txtResultado.Text = "Números pares no intervalo: " + string.Join(", ", pares);
+                                 
             }
             else
             {

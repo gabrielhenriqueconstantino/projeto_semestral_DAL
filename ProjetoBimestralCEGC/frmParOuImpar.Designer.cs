@@ -129,7 +129,6 @@
             txtResultado.Name = "txtResultado";
             txtResultado.Size = new Size(353, 211);
             txtResultado.TabIndex = 1;
-            txtResultado.TextAlign = HorizontalAlignment.Center;
             // 
             // frmParOuImpar
             // 
