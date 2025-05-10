@@ -43,5 +43,12 @@ namespace ProjetoBimestralCEGC
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void conversorKelvinFahrenheitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTemperatura frm = new frmTemperatura();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

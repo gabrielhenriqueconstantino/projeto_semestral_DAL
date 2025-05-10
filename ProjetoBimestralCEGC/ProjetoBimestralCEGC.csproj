@@ -10,11 +10,15 @@
 
   <ItemGroup>
     <None Remove="img\bg.png" />
+    <None Remove="img\bg_temp.jpg" />
     <None Remove="img\bg_tempo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="img\bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\bg_temp.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img\bg_tempo.jpg">

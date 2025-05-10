@@ -92,6 +92,7 @@
             conversorKelvinFahrenheitToolStripMenuItem.Name = "conversorKelvinFahrenheitToolStripMenuItem";
             conversorKelvinFahrenheitToolStripMenuItem.Size = new Size(257, 22);
             conversorKelvinFahrenheitToolStripMenuItem.Text = "Conversor Kelvin/Fahrenheit";
+            conversorKelvinFahrenheitToolStripMenuItem.Click += conversorKelvinFahrenheitToolStripMenuItem_Click;
             // 
             // divisívelPoToolStripMenuItem
             // 
