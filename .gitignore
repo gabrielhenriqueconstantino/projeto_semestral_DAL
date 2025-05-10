@@ -1,0 +1,53 @@
+## Ignore arquivos do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore pastas de build
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+## Ignore pacotes
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psmdcp
+
+## Ignore arquivos de cache e logs
+*.log
+*.tlog
+*.tmp
+*.cache
+*.dbmdl
+*.VC.db
+
+## Ignore configurações locais
+*.localsettings.json
+
+## Ignore arquivos de depuração
+*.pdb
+*.ilk
+
+## Ignore pastas de publicação
+publish/
+
+## Ignore arquivos do sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+
+## Ignore arquivos do GitHub Codespaces e devcontainers (se aplicável)
+.devcontainer/
+.vscode/
+
+## Ignore configurações do Rider ou ReSharper (caso use JetBrains)
+.idea/
+*.DotSettings.user
+_ReSharper*/
