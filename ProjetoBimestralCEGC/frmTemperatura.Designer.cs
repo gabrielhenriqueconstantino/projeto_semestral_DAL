@@ -45,9 +45,9 @@
             label1.ForeColor = SystemColors.ButtonHighlight;
             label1.Location = new Point(91, 3);
             label1.Name = "label1";
-            label1.Size = new Size(190, 37);
+            label1.Size = new Size(188, 37);
             label1.TabIndex = 0;
-            label1.Text = "Cº ⮀ F° ⮀ K°";
+            label1.Text = "ºC ⮀ ºF ⮀ ºK";
             // 
             // txtCelscius
             // 
