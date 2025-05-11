@@ -107,6 +107,7 @@
             suaIdadeToolStripMenuItem.Name = "suaIdadeToolStripMenuItem";
             suaIdadeToolStripMenuItem.Size = new Size(326, 26);
             suaIdadeToolStripMenuItem.Text = "Sua Idade";
+            suaIdadeToolStripMenuItem.Click += suaIdadeToolStripMenuItem_Click;
             // 
             // menu2ToolStripMenuItem
             // 
