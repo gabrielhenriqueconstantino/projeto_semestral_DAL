@@ -60,7 +60,9 @@ namespace ProjetoBimestralCEGC
 
         private void suaIdadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmAniversario frm = new frmAniversario();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }
