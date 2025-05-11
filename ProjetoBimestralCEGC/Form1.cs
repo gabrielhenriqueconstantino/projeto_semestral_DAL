@@ -50,5 +50,12 @@ namespace ProjetoBimestralCEGC
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void divisívelPoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDivisivelPor3 frm = new frmDivisivelPor3();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
