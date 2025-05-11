@@ -69,3 +69,5 @@ C:\Users\Carlos\Source\Repos\projeto_semestral_DAL\ProjetoBimestralCEGC\obj\Debu
 C:\Users\Carlos\Source\Repos\projeto_semestral_DAL\ProjetoBimestralCEGC\obj\Debug\net8.0-windows\ProjetoBimestralCEGC.frmDivisivelPor3.resources
 C:\Users\Gabriel\source\repos\gabrielhenriqueconstantino\projeto_semestral_DAL\ProjetoBimestralCEGC\obj\Debug\net8.0-windows\ProjetoBimestralCEGC.frmDivisivelPor3.resources
 C:\Users\Carlos\Source\Repos\projeto_semestral_DAL\ProjetoBimestralCEGC\obj\Debug\net8.0-windows\ProjetoBimestralCEGC.frmAniversario.resources
+C:\Users\Gabriel\source\repos\gabrielhenriqueconstantino\projeto_semestral_DAL\ProjetoBimestralCEGC\obj\Debug\net8.0-windows\ProjetoBimestralCEGC.frmAniversario.resources
+C:\Users\Gabriel\source\repos\gabrielhenriqueconstantino\projeto_semestral_DAL\ProjetoBimestralCEGC\bin\Debug\net8.0-windows\img\bg_div.jpeg

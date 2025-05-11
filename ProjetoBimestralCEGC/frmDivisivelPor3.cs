@@ -15,6 +15,10 @@ namespace ProjetoBimestralCEGC
         public frmDivisivelPor3()
         {
             InitializeComponent();
+
+            // Define a imagem de fundo
+            this.BackgroundImage = Image.FromFile("img/bg_div.jpeg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void btnConfirmar_Click(object sender, EventArgs e)
@@ -32,9 +36,12 @@ namespace ProjetoBimestralCEGC
 
             else
                 MessageBox.Show($"Digite um número inteiro válido.");
-            
+
         }
 
+        private void frmDivisivelPor3_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
