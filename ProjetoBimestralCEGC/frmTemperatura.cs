@@ -30,5 +30,25 @@ namespace ProjetoBimestralCEGC
         {
 
         }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            double temperaturaCelscius = Convert.ToDouble(txtCelscius.Text);
+            double temperaturaFahrenheit = (temperaturaCelscius * 9 / 5) + 32;
+            double temperaturaKelvin = (temperaturaCelscius + 273.15);
+
+            if (radioFahrenheit.Checked)
+            {
+                txtResultado.Text = $"{temperaturaFahrenheit} °F";
+            }
+            else if (radioKelvin.Checked)
+            {
+                txtResultado.Text = $"{temperaturaKelvin} K";
+            }
+            else
+            {
+                MessageBox.Show("Selecione uma opção de conversão.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
