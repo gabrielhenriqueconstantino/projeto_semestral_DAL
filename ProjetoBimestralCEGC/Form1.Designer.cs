@@ -132,6 +132,7 @@
             diferençaEntreEToolStripMenuItem.Name = "diferençaEntreEToolStripMenuItem";
             diferençaEntreEToolStripMenuItem.Size = new Size(301, 28);
             diferençaEntreEToolStripMenuItem.Text = "Diferença entre > e <";
+            diferençaEntreEToolStripMenuItem.Click += diferençaEntreEToolStripMenuItem_Click;
             // 
             // cálculoIMCToolStripMenuItem
             // 
