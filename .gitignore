@@ -1,83 +1,52 @@
-## Ignore arquivos do Visual Studio
+## Visual Studio
 .vs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-## Ignore pastas de build
+## Build e artefatos
 bin/
 obj/
 [Bb]uild/
 [Bb]uild[Ll]og.*
-
-## Ignore pacotes
-*.nupkg
-*.snupkg
-*.nuspec
-packages/
-*.psmdcp
-
-## Ignore arquivos de cache e logs
 *.log
 *.tlog
 *.tmp
 *.cache
 *.dbmdl
 *.VC.db
-
-## Ignore configurações locais
-*.localsettings.json
-
-## Ignore arquivos de depuração
 *.pdb
 *.ilk
+*.exe
+*.dll
 
-## Ignore pastas de publicação
+## Publicação e pacotes
 publish/
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
 
-## Ignore arquivos do sistema
+## Configurações locais
+*.localsettings.json
+
+## Ferramentas de desenvolvimento
+.vscode/
+.devcontainer/
+.idea/
+*.DotSettings.user
+_ReSharper*/
+
+## Arquivos do sistema
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 *.DS_Store
 
-## Ignore arquivos do GitHub Codespaces e devcontainers (se aplicável)
-.devcontainer/
-.vscode/
-
-## Ignore configurações do Rider ou ReSharper (caso use JetBrains)
-.idea/
-*.DotSettings.user
-_ReSharper*/
-
-# Ignore bin and obj folders
-bin/
-obj/
-
-# Ignore build results
-*.exe
-*.dll
-*.pdb
-*.user
-*.suo
-
-# Ignora arquivos de build do .NET
-bin/
-obj/
-*.user
-*.suo
-*.cache
-*.dbmdl
-*.log
-
-# Ignora pastas específicas
+## Pastas específicas do projeto
 ProjetoBimestralCEGC/bin/
 ProjetoBimestralCEGC/obj/
 
-# Outras coisas comuns
-.vscode/
-*.exe
-*.dll
-*.pdb
