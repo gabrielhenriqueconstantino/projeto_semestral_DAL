@@ -62,3 +62,22 @@ obj/
 *.pdb
 *.user
 *.suo
+
+# Ignora arquivos de build do .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.log
+
+# Ignora pastas específicas
+ProjetoBimestralCEGC/bin/
+ProjetoBimestralCEGC/obj/
+
+# Outras coisas comuns
+.vscode/
+*.exe
+*.dll
+*.pdb
