@@ -92,5 +92,13 @@ namespace ProjetoBimestralCEGC
             frm.Show();
 
         }
+
+        private void cálculoIMCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCalcIMC frm = new frmCalcIMC();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

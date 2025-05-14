@@ -9,8 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="frmIMC.cs" />
+    <Compile Remove="frmIMC.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="frmIMC.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="img\bg.png" />
     <None Remove="img\bg_div.jpeg" />
+    <None Remove="img\bg_imc.jpg" />
     <None Remove="img\bg_temp.jpg" />
     <None Remove="img\bg_tempo.jpg" />
   </ItemGroup>
@@ -20,6 +30,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img\bg_div.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\bg_imc.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img\bg_temp.jpg">

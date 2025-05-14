@@ -138,6 +138,7 @@
             cálculoIMCToolStripMenuItem.Name = "cálculoIMCToolStripMenuItem";
             cálculoIMCToolStripMenuItem.Size = new Size(244, 26);
             cálculoIMCToolStripMenuItem.Text = "Cálculo IMC";
+            cálculoIMCToolStripMenuItem.Click += cálculoIMCToolStripMenuItem_Click;
             // 
             // notasToolStripMenuItem
             // 
