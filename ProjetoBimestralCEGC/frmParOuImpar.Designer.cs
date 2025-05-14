@@ -42,7 +42,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.DodgerBlue;
+            panel1.BackColor = Color.Red;
             panel1.Controls.Add(label1);
             panel1.Location = new Point(-1, 0);
             panel1.Name = "panel1";
