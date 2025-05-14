@@ -94,8 +94,10 @@
             Controls.Add(btnConverter);
             Controls.Add(txtSegundos);
             Controls.Add(panel1);
+            Location = new Point(50, 50);
             Name = "frmTempo";
             Text = "Conversor de Tempo";
+            TopMost = true;
             Load += frmTempo_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

@@ -15,6 +15,10 @@ namespace ProjetoBimestralCEGC
         public frmAniversario()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;// Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
+
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -32,6 +36,11 @@ namespace ProjetoBimestralCEGC
             {
                 MessageBox.Show($"Digite uma data de nascimento válida.");
             }
+
+        }
+
+        private void frmAniversario_Load(object sender, EventArgs e)
+        {
 
         }
     }

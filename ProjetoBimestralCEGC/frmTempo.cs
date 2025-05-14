@@ -19,6 +19,9 @@ namespace ProjetoBimestralCEGC
             // Define a imagem de fundo
             this.BackgroundImage = Image.FromFile("img/bg_tempo.jpg");
             this.BackgroundImageLayout = ImageLayout.Stretch;
+
+            this.MaximizeBox = false;           // Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
         }
 
         private void frmTempo_Load(object sender, EventArgs e)

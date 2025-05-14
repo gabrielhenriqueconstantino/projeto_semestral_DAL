@@ -127,7 +127,7 @@
             txtResultado.Location = new Point(12, 235);
             txtResultado.Multiline = true;
             txtResultado.Name = "txtResultado";
-            txtResultado.Size = new Size(353, 211);
+            txtResultado.Size = new Size(353, 140);
             txtResultado.TabIndex = 1;
             // 
             // frmParOuImpar
@@ -135,7 +135,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DimGray;
-            ClientSize = new Size(377, 458);
+            ClientSize = new Size(377, 380);
             Controls.Add(txtResultado);
             Controls.Add(btnDescobrir);
             Controls.Add(label3);
@@ -146,6 +146,7 @@
             Controls.Add(panel1);
             Name = "frmParOuImpar";
             Text = "frmParOuImpar";
+            Load += frmParOuImpar_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

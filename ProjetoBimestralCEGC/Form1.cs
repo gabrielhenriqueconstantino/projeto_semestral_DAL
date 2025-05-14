@@ -13,10 +13,14 @@ namespace ProjetoBimestralCEGC
             // Configura o MDI
             this.IsMdiContainer = true;
 
+            this.MaximizeBox = false;           // Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
+
             // Define a imagem de fundo
             this.BackgroundImage = Image.FromFile("img/bg.png");
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
+
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
@@ -28,10 +32,20 @@ namespace ProjetoBimestralCEGC
 
         }
 
+        public void CentralizarFormulario(Form form)
+        {
+            if (form.MdiParent != null)
+            {
+                int x = (form.MdiParent.ClientSize.Width - form.Width) / 2;
+                int y = (form.MdiParent.ClientSize.Height - form.Height) / 2;
+                form.Location = new Point(Math.Max(x, 0), Math.Max(y, 0));
+            }
+        }
+
         private void conversorDeTempoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmTempo frm = new frmTempo();
-
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
             frm.MdiParent = this;
             frm.Show();
         }
@@ -39,7 +53,7 @@ namespace ProjetoBimestralCEGC
         private void númerosParesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmParOuImpar frm = new frmParOuImpar();
-
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
             frm.MdiParent = this;
             frm.Show();
         }
@@ -47,6 +61,7 @@ namespace ProjetoBimestralCEGC
         private void conversorKelvinFahrenheitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmTemperatura frm = new frmTemperatura();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
             frm.MdiParent = this;
             frm.Show();
         }
@@ -54,6 +69,7 @@ namespace ProjetoBimestralCEGC
         private void divisívelPoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmDivisivelPor3 frm = new frmDivisivelPor3();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
             frm.MdiParent = this;
             frm.Show();
         }
@@ -61,6 +77,7 @@ namespace ProjetoBimestralCEGC
         private void suaIdadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAniversario frm = new frmAniversario();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
             frm.MdiParent = this;
             frm.Show();
         }

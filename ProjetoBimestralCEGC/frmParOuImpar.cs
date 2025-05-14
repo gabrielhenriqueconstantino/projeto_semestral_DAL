@@ -15,6 +15,9 @@ namespace ProjetoBimestralCEGC
         public frmParOuImpar()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;           // Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
         }
 
         private void btnDescobrir_Click(object sender, EventArgs e)
@@ -38,12 +41,17 @@ namespace ProjetoBimestralCEGC
 
                 // Monta o texto de saída
                 txtResultado.Text = "Números pares no intervalo: " + string.Join(", ", pares);
-                                 
+
             }
             else
             {
                 MessageBox.Show("Insira números inteiros válidos.", "Erro de entrada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void frmParOuImpar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

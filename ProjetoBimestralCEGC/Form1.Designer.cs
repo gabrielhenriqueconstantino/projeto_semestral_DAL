@@ -55,146 +55,152 @@
             // 
             menuStrip1.AllowDrop = true;
             menuStrip1.AutoSize = false;
-            menuStrip1.BackColor = Color.Silver;
+            menuStrip1.BackColor = Color.FromArgb(224, 224, 224);
             menuStrip1.Dock = DockStyle.None;
-            menuStrip1.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            menuStrip1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            menuStrip1.GripStyle = ToolStripGripStyle.Visible;
             menuStrip1.ImageScalingSize = new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { menu1ToolStripMenuItem, menu2ToolStripMenuItem, terceiraParteToolStripMenuItem, quartaParteToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(815, 25);
+            menuStrip1.Size = new Size(815, 37);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // menu1ToolStripMenuItem
             // 
+            menu1ToolStripMenuItem.BackColor = Color.Transparent;
             menu1ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { conversorDeTempoToolStripMenuItem, númerosParesToolStripMenuItem, conversorKelvinFahrenheitToolStripMenuItem, divisívelPoToolStripMenuItem, suaIdadeToolStripMenuItem });
+            menu1ToolStripMenuItem.ForeColor = Color.Black;
             menu1ToolStripMenuItem.Name = "menu1ToolStripMenuItem";
-            menu1ToolStripMenuItem.Size = new Size(138, 21);
+            menu1ToolStripMenuItem.Size = new Size(129, 33);
             menu1ToolStripMenuItem.Text = "Primeira Parte";
             menu1ToolStripMenuItem.Click += menu1ToolStripMenuItem_Click;
             // 
             // conversorDeTempoToolStripMenuItem
             // 
             conversorDeTempoToolStripMenuItem.Name = "conversorDeTempoToolStripMenuItem";
-            conversorDeTempoToolStripMenuItem.Size = new Size(326, 26);
+            conversorDeTempoToolStripMenuItem.Size = new Size(299, 26);
             conversorDeTempoToolStripMenuItem.Text = "Conversor de Tempo";
             conversorDeTempoToolStripMenuItem.Click += conversorDeTempoToolStripMenuItem_Click;
             // 
             // númerosParesToolStripMenuItem
             // 
             númerosParesToolStripMenuItem.Name = "númerosParesToolStripMenuItem";
-            númerosParesToolStripMenuItem.Size = new Size(326, 26);
+            númerosParesToolStripMenuItem.Size = new Size(299, 26);
             númerosParesToolStripMenuItem.Text = "Números Pares";
             númerosParesToolStripMenuItem.Click += númerosParesToolStripMenuItem_Click;
             // 
             // conversorKelvinFahrenheitToolStripMenuItem
             // 
             conversorKelvinFahrenheitToolStripMenuItem.Name = "conversorKelvinFahrenheitToolStripMenuItem";
-            conversorKelvinFahrenheitToolStripMenuItem.Size = new Size(326, 26);
+            conversorKelvinFahrenheitToolStripMenuItem.Size = new Size(299, 26);
             conversorKelvinFahrenheitToolStripMenuItem.Text = "Conversor Kelvin/Fahrenheit";
             conversorKelvinFahrenheitToolStripMenuItem.Click += conversorKelvinFahrenheitToolStripMenuItem_Click;
             // 
             // divisívelPoToolStripMenuItem
             // 
             divisívelPoToolStripMenuItem.Name = "divisívelPoToolStripMenuItem";
-            divisívelPoToolStripMenuItem.Size = new Size(326, 26);
+            divisívelPoToolStripMenuItem.Size = new Size(299, 26);
             divisívelPoToolStripMenuItem.Text = "Divisível por 3?";
             divisívelPoToolStripMenuItem.Click += divisívelPoToolStripMenuItem_Click;
             // 
             // suaIdadeToolStripMenuItem
             // 
             suaIdadeToolStripMenuItem.Name = "suaIdadeToolStripMenuItem";
-            suaIdadeToolStripMenuItem.Size = new Size(326, 26);
+            suaIdadeToolStripMenuItem.Size = new Size(299, 26);
             suaIdadeToolStripMenuItem.Text = "Sua Idade";
             suaIdadeToolStripMenuItem.Click += suaIdadeToolStripMenuItem_Click;
             // 
             // menu2ToolStripMenuItem
             // 
             menu2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dobroOuMetadeToolStripMenuItem, diferençaEntreEToolStripMenuItem, cálculoIMCToolStripMenuItem, notasToolStripMenuItem, diasEntreDatasToolStripMenuItem });
+            menu2ToolStripMenuItem.ForeColor = Color.Black;
             menu2ToolStripMenuItem.Name = "menu2ToolStripMenuItem";
-            menu2ToolStripMenuItem.Size = new Size(148, 21);
+            menu2ToolStripMenuItem.Size = new Size(139, 33);
             menu2ToolStripMenuItem.Text = "Segunda Parte";
             // 
             // dobroOuMetadeToolStripMenuItem
             // 
             dobroOuMetadeToolStripMenuItem.Name = "dobroOuMetadeToolStripMenuItem";
-            dobroOuMetadeToolStripMenuItem.Size = new Size(270, 26);
+            dobroOuMetadeToolStripMenuItem.Size = new Size(244, 26);
             dobroOuMetadeToolStripMenuItem.Text = "Dobro ou Metade";
             // 
             // diferençaEntreEToolStripMenuItem
             // 
             diferençaEntreEToolStripMenuItem.Name = "diferençaEntreEToolStripMenuItem";
-            diferençaEntreEToolStripMenuItem.Size = new Size(270, 26);
+            diferençaEntreEToolStripMenuItem.Size = new Size(244, 26);
             diferençaEntreEToolStripMenuItem.Text = "Diferença entre > e <";
             // 
             // cálculoIMCToolStripMenuItem
             // 
             cálculoIMCToolStripMenuItem.Name = "cálculoIMCToolStripMenuItem";
-            cálculoIMCToolStripMenuItem.Size = new Size(270, 26);
+            cálculoIMCToolStripMenuItem.Size = new Size(244, 26);
             cálculoIMCToolStripMenuItem.Text = "Cálculo IMC";
             // 
             // notasToolStripMenuItem
             // 
             notasToolStripMenuItem.Name = "notasToolStripMenuItem";
-            notasToolStripMenuItem.Size = new Size(270, 26);
+            notasToolStripMenuItem.Size = new Size(244, 26);
             notasToolStripMenuItem.Text = "Notas";
             // 
             // diasEntreDatasToolStripMenuItem
             // 
             diasEntreDatasToolStripMenuItem.Name = "diasEntreDatasToolStripMenuItem";
-            diasEntreDatasToolStripMenuItem.Size = new Size(270, 26);
+            diasEntreDatasToolStripMenuItem.Size = new Size(244, 26);
             diasEntreDatasToolStripMenuItem.Text = "Dias entre Datas";
             // 
             // terceiraParteToolStripMenuItem
             // 
             terceiraParteToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { faixasNuméricasToolStripMenuItem, compararDoisArraysToolStripMenuItem, ocorrênciaDeLetrasToolStripMenuItem, anoBissextoToolStripMenuItem });
+            terceiraParteToolStripMenuItem.ForeColor = Color.Black;
             terceiraParteToolStripMenuItem.Name = "terceiraParteToolStripMenuItem";
-            terceiraParteToolStripMenuItem.Size = new Size(140, 21);
+            terceiraParteToolStripMenuItem.Size = new Size(130, 33);
             terceiraParteToolStripMenuItem.Text = "Terceira Parte";
             // 
             // faixasNuméricasToolStripMenuItem
             // 
             faixasNuméricasToolStripMenuItem.Name = "faixasNuméricasToolStripMenuItem";
-            faixasNuméricasToolStripMenuItem.Size = new Size(273, 26);
+            faixasNuméricasToolStripMenuItem.Size = new Size(247, 26);
             faixasNuméricasToolStripMenuItem.Text = "Faixas numéricas";
             // 
             // compararDoisArraysToolStripMenuItem
             // 
             compararDoisArraysToolStripMenuItem.Name = "compararDoisArraysToolStripMenuItem";
-            compararDoisArraysToolStripMenuItem.Size = new Size(273, 26);
+            compararDoisArraysToolStripMenuItem.Size = new Size(247, 26);
             compararDoisArraysToolStripMenuItem.Text = "Comparar dois Arrays";
             // 
             // ocorrênciaDeLetrasToolStripMenuItem
             // 
             ocorrênciaDeLetrasToolStripMenuItem.Name = "ocorrênciaDeLetrasToolStripMenuItem";
-            ocorrênciaDeLetrasToolStripMenuItem.Size = new Size(273, 26);
+            ocorrênciaDeLetrasToolStripMenuItem.Size = new Size(247, 26);
             ocorrênciaDeLetrasToolStripMenuItem.Text = "Ocorrência de Letras";
             // 
             // anoBissextoToolStripMenuItem
             // 
             anoBissextoToolStripMenuItem.Name = "anoBissextoToolStripMenuItem";
-            anoBissextoToolStripMenuItem.Size = new Size(273, 26);
+            anoBissextoToolStripMenuItem.Size = new Size(247, 26);
             anoBissextoToolStripMenuItem.Text = "Ano Bissexto";
             // 
             // quartaParteToolStripMenuItem
             // 
             quartaParteToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { somaPonderadaToolStripMenuItem });
+            quartaParteToolStripMenuItem.ForeColor = Color.Black;
             quartaParteToolStripMenuItem.Name = "quartaParteToolStripMenuItem";
-            quartaParteToolStripMenuItem.Size = new Size(135, 21);
+            quartaParteToolStripMenuItem.Size = new Size(126, 33);
             quartaParteToolStripMenuItem.Text = "Quarta Parte";
             // 
             // somaPonderadaToolStripMenuItem
             // 
             somaPonderadaToolStripMenuItem.Name = "somaPonderadaToolStripMenuItem";
-            somaPonderadaToolStripMenuItem.Size = new Size(240, 26);
+            somaPonderadaToolStripMenuItem.Size = new Size(216, 26);
             somaPonderadaToolStripMenuItem.Text = "Soma Ponderada";
             // 
             // frmPrincipal
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(815, 510);
+            ClientSize = new Size(816, 510);
             Controls.Add(menuStrip1);
             Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             MainMenuStrip = menuStrip1;

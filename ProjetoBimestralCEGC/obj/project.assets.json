@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
       "projectName": "ProjetoBimestralCEGC",
-      "projectPath": "C:\\Users\\Gabriel\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
+      "projectPath": "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

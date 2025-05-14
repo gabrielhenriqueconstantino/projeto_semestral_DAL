@@ -19,6 +19,9 @@ namespace ProjetoBimestralCEGC
             // Define a imagem de fundo
             this.BackgroundImage = Image.FromFile("img/bg_div.jpeg");
             this.BackgroundImageLayout = ImageLayout.Stretch;
+
+            this.MaximizeBox = false;           // Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
         }
 
         private void btnConfirmar_Click(object sender, EventArgs e)
