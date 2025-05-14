@@ -55,7 +55,7 @@
             // 
             menuStrip1.AllowDrop = true;
             menuStrip1.AutoSize = false;
-            menuStrip1.BackColor = Color.FromArgb(224, 224, 224);
+            menuStrip1.BackColor = Color.Green;
             menuStrip1.Dock = DockStyle.None;
             menuStrip1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.GripStyle = ToolStripGripStyle.Visible;
