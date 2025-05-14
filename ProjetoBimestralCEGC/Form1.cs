@@ -13,12 +13,14 @@ namespace ProjetoBimestralCEGC
             // Configura o MDI
             this.IsMdiContainer = true;
 
-            this.MaximizeBox = false;           // Remove o botão de maximizar
-            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
+            // Impede redimensionamento e maximização
+            this.MaximizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
 
             // Define a imagem de fundo
             this.BackgroundImage = Image.FromFile("img/bg.png");
             this.BackgroundImageLayout = ImageLayout.Stretch;
+
         }
 
 
@@ -81,5 +83,6 @@ namespace ProjetoBimestralCEGC
             frm.MdiParent = this;
             frm.Show();
         }
+
     }
 }

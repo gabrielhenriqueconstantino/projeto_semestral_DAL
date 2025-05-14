@@ -22,7 +22,6 @@ namespace ProjetoBimestralCEGC
 
             this.MaximizeBox = false;           // Remove o botão de maximizar
             this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
-
         }
 
         private void frmTemperatura_Load(object sender, EventArgs e)
