@@ -50,3 +50,5 @@ $RECYCLE.BIN/
 ProjetoBimestralCEGC/bin/
 ProjetoBimestralCEGC/obj/
 
+*.csproj.user
+
