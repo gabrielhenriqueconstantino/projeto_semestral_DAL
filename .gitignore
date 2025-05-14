@@ -51,3 +51,14 @@ $RECYCLE.BIN/
 .idea/
 *.DotSettings.user
 _ReSharper*/
+
+# Ignore bin and obj folders
+bin/
+obj/
+
+# Ignore build results
+*.exe
+*.dll
+*.pdb
+*.user
+*.suo
