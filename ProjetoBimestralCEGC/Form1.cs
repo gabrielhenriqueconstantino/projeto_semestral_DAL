@@ -93,6 +93,14 @@ namespace ProjetoBimestralCEGC
 
         }
 
+        private void diferençaEntreEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDiferençaMaiorMenor frm = new frmDiferençaMaiorMenor();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
         private void cálculoIMCToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmCalcIMC frm = new frmCalcIMC();
