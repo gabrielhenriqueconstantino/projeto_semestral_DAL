@@ -84,5 +84,13 @@ namespace ProjetoBimestralCEGC
             frm.Show();
         }
 
+        private void dobroOuMetadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDobroMetade frm = new frmDobroMetade();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+
+        }
     }
 }

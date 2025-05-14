@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoBimestralCEGC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6641f126f8fcc1e941fa55da4ad4e6b1875593c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8749a6604e820bbf09c39f15bd7768074016417")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoBimestralCEGC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoBimestralCEGC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj": {}
+    "C:\\Users\\Carlos\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj": {
+    "C:\\Users\\Carlos\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
         "projectName": "ProjetoBimestralCEGC",
-        "projectPath": "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
-        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Source\\Repos\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\ProjetoBimestralCEGC.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\source\\repos\\gabrielhenriqueconstantino\\projeto_semestral_DAL\\ProjetoBimestralCEGC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
