@@ -109,12 +109,22 @@ namespace ProjetoBimestralCEGC
             frm.Show();
         }
 
+<<<<<<< HEAD
         private void notasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmNotas frm = new frmNotas();
             frm.Load += (s, ev) => CentralizarFormulario(frm);
             frm.MdiParent = this;
             frm.Show();
+=======
+        private void diasEntreDatasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDiferencaDatas frm = new frmDiferencaDatas();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+
+>>>>>>> d416c635b67c94f27962af18108ddb5fb38b864a
         }
     }
 }
