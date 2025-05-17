@@ -21,6 +21,7 @@
     <None Remove="img\bg.png" />
     <None Remove="img\bg_div.jpeg" />
     <None Remove="img\bg_imc.jpg" />
+    <None Remove="img\bg_notas.png" />
     <None Remove="img\bg_temp.jpg" />
     <None Remove="img\bg_tempo.jpg" />
   </ItemGroup>
@@ -33,6 +34,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img\bg_imc.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\bg_notas.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img\bg_temp.jpg">

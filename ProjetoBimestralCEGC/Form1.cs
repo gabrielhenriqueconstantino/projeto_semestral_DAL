@@ -108,5 +108,13 @@ namespace ProjetoBimestralCEGC
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void notasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNotas frm = new frmNotas();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
