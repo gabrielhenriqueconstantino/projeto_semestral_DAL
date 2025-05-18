@@ -146,6 +146,7 @@
             notasToolStripMenuItem.Name = "notasToolStripMenuItem";
             notasToolStripMenuItem.Size = new Size(301, 28);
             notasToolStripMenuItem.Text = "Notas";
+            notasToolStripMenuItem.Click += notasToolStripMenuItem_Click;
             // 
             // diasEntreDatasToolStripMenuItem
             // 
