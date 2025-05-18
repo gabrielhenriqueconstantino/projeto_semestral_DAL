@@ -35,7 +35,7 @@
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(332, 233);
+            btnCalcular.Location = new Point(181, 215);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(94, 29);
             btnCalcular.TabIndex = 2;
@@ -45,7 +45,7 @@
             // 
             // txtNumeroUM
             // 
-            txtNumeroUM.Location = new Point(279, 153);
+            txtNumeroUM.Location = new Point(132, 107);
             txtNumeroUM.Name = "txtNumeroUM";
             txtNumeroUM.PlaceholderText = "DIgite a Primeira Data:";
             txtNumeroUM.Size = new Size(206, 27);
@@ -53,7 +53,7 @@
             // 
             // txtNumeroDois
             // 
-            txtNumeroDois.Location = new Point(279, 200);
+            txtNumeroDois.Location = new Point(132, 158);
             txtNumeroDois.Name = "txtNumeroDois";
             txtNumeroDois.PlaceholderText = "Digite a Segunda Data:";
             txtNumeroDois.Size = new Size(206, 27);
@@ -63,12 +63,13 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(461, 332);
             Controls.Add(txtNumeroDois);
             Controls.Add(txtNumeroUM);
             Controls.Add(btnCalcular);
             Name = "frmDiferencaDatas";
             Text = "frmDiferencaDatas";
+            Load += frmDiferencaDatas_Load;
             ResumeLayout(false);
             PerformLayout();
         }

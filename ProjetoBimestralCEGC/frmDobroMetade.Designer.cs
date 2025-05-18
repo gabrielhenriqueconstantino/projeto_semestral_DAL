@@ -38,14 +38,14 @@
             txtNumero.Name = "txtNumero";
             txtNumero.PlaceholderText = "Digite o numero:";
             txtNumero.Size = new Size(125, 27);
-            txtNumero.TabIndex = 0;
+            txtNumero.TabIndex = 1;
             // 
             // btnCalcular
             // 
             btnCalcular.Location = new Point(178, 169);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(94, 29);
-            btnCalcular.TabIndex = 1;
+            btnCalcular.TabIndex = 0;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
             btnCalcular.Click += btnCalcular_Click;
@@ -59,6 +59,7 @@
             Controls.Add(txtNumero);
             Name = "frmDobroMetade";
             Text = "frmDobroMetade";
+            Load += frmDobroMetade_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -134,33 +134,33 @@ namespace ProjetoBimestralCEGC
             frm.Show();
         }
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         private void faixasNuméricasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmFaixasNumericas frm = new frmFaixasNumericas();
@@ -172,6 +172,14 @@ namespace ProjetoBimestralCEGC
         private void anoBissextoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmBissexto frm = new frmBissexto();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void ocorrênciaDeLetrasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOcorrenciaLetra frm = new frmOcorrenciaLetra();
             frm.Load += (s, ev) => CentralizarFormulario(frm);
             frm.MdiParent = this;
             frm.Show();

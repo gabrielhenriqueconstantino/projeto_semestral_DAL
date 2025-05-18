@@ -15,6 +15,12 @@ namespace ProjetoBimestralCEGC
         public frmDobroMetade()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;// Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
+
+            this.BackgroundImage = Image.FromFile("img/Roleta.jpg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -39,6 +45,11 @@ namespace ProjetoBimestralCEGC
                 MessageBox.Show("Por favor, digite um número inteiro válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtNumero.Focus();
             }
+        }
+
+        private void frmDobroMetade_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

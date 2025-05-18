@@ -15,6 +15,12 @@ namespace ProjetoBimestralCEGC
         public frmDiferençaMaiorMenor()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;// Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
+
+            this.BackgroundImage = Image.FromFile("img/MenorMaior.png");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -34,6 +40,11 @@ namespace ProjetoBimestralCEGC
                 MessageBox.Show("Por favor, digite dois números inteiros válidos.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtNumero1.Focus();
             }
+        }
+
+        private void frmDiferençaMaiorMenor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

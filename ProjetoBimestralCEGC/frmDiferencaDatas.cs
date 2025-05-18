@@ -15,6 +15,12 @@ namespace ProjetoBimestralCEGC
         public frmDiferencaDatas()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;// Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
+
+            this.BackgroundImage = Image.FromFile("img/Datas.png");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -32,6 +38,11 @@ namespace ProjetoBimestralCEGC
                 MessageBox.Show($"Digite datas válidas (ex.: 17/05/2025).",
                                 "Entrada inválida");
             }
+        }
+
+        private void frmDiferencaDatas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

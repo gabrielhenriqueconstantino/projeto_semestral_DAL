@@ -35,26 +35,26 @@
             // 
             // txtNumero2
             // 
-            txtNumero2.Location = new Point(152, 134);
+            txtNumero2.Location = new Point(74, 141);
             txtNumero2.Name = "txtNumero2";
             txtNumero2.PlaceholderText = "Digite o segundo numero:";
-            txtNumero2.Size = new Size(189, 27);
-            txtNumero2.TabIndex = 0;
+            txtNumero2.Size = new Size(232, 27);
+            txtNumero2.TabIndex = 2;
             // 
             // txtNumero1
             // 
-            txtNumero1.Location = new Point(152, 79);
+            txtNumero1.Location = new Point(74, 108);
             txtNumero1.Name = "txtNumero1";
             txtNumero1.PlaceholderText = "Digite o primeiro numero:";
-            txtNumero1.Size = new Size(189, 27);
-            txtNumero1.TabIndex = 0;
+            txtNumero1.Size = new Size(232, 27);
+            txtNumero1.TabIndex = 1;
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(200, 196);
+            btnCalcular.Location = new Point(155, 189);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(94, 29);
-            btnCalcular.TabIndex = 1;
+            btnCalcular.TabIndex = 0;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
             btnCalcular.Click += btnCalcular_Click;
@@ -63,12 +63,13 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(520, 321);
+            ClientSize = new Size(401, 275);
             Controls.Add(btnCalcular);
             Controls.Add(txtNumero1);
             Controls.Add(txtNumero2);
             Name = "frmDiferençaMaiorMenor";
             Text = "frmDiferençaMaiorMenor";
+            Load += frmDiferençaMaiorMenor_Load;
             ResumeLayout(false);
             PerformLayout();
         }
