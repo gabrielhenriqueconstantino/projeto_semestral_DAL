@@ -174,6 +174,7 @@
             compararDoisArraysToolStripMenuItem.Name = "compararDoisArraysToolStripMenuItem";
             compararDoisArraysToolStripMenuItem.Size = new Size(306, 28);
             compararDoisArraysToolStripMenuItem.Text = "Comparar dois Arrays";
+            compararDoisArraysToolStripMenuItem.Click += compararDoisArraysToolStripMenuItem_Click;
             // 
             // ocorrênciaDeLetrasToolStripMenuItem
             // 

@@ -19,6 +19,11 @@ namespace ProjetoBimestralCEGC
             this.MaximizeBox = false;// Remove o botão de maximizar
             this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
 
+            this.BackgroundImage = Image.FromFile("img/aniversario.jpg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+
+            this.MaximizeBox = false;           // Remove o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede o redimensionamento
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
