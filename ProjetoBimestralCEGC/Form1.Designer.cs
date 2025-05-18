@@ -166,7 +166,7 @@
             // faixasNuméricasToolStripMenuItem
             // 
             faixasNuméricasToolStripMenuItem.Name = "faixasNuméricasToolStripMenuItem";
-            faixasNuméricasToolStripMenuItem.Size = new Size(243, 26);
+            faixasNuméricasToolStripMenuItem.Size = new Size(247, 26);
             faixasNuméricasToolStripMenuItem.Text = "Faixas numéricas";
             faixasNuméricasToolStripMenuItem.Click += faixasNuméricasToolStripMenuItem_Click;
             // 
@@ -180,13 +180,13 @@
             // ocorrênciaDeLetrasToolStripMenuItem
             // 
             ocorrênciaDeLetrasToolStripMenuItem.Name = "ocorrênciaDeLetrasToolStripMenuItem";
-            ocorrênciaDeLetrasToolStripMenuItem.Size = new Size(243, 26);
+            ocorrênciaDeLetrasToolStripMenuItem.Size = new Size(247, 26);
             ocorrênciaDeLetrasToolStripMenuItem.Text = "Ocorrência de Letras";
             // 
             // anoBissextoToolStripMenuItem
             // 
             anoBissextoToolStripMenuItem.Name = "anoBissextoToolStripMenuItem";
-            anoBissextoToolStripMenuItem.Size = new Size(243, 26);
+            anoBissextoToolStripMenuItem.Size = new Size(247, 26);
             anoBissextoToolStripMenuItem.Text = "Ano Bissexto";
             anoBissextoToolStripMenuItem.Click += anoBissextoToolStripMenuItem_Click;
             // 
@@ -201,8 +201,9 @@
             // somaPonderadaToolStripMenuItem
             // 
             somaPonderadaToolStripMenuItem.Name = "somaPonderadaToolStripMenuItem";
-            somaPonderadaToolStripMenuItem.Size = new Size(216, 26);
-            somaPonderadaToolStripMenuItem.Text = "Soma Ponderada";
+            somaPonderadaToolStripMenuItem.Size = new Size(180, 26);
+            somaPonderadaToolStripMenuItem.Text = "Ler o Vetor";
+            somaPonderadaToolStripMenuItem.Click += somaPonderadaToolStripMenuItem_Click;
             // 
             // frmPrincipal
             // 

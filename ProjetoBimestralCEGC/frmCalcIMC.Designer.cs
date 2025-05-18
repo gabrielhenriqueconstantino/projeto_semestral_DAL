@@ -63,7 +63,7 @@
             txtPeso.Name = "txtPeso";
             txtPeso.PlaceholderText = "Insira seu peso...";
             txtPeso.Size = new Size(183, 23);
-            txtPeso.TabIndex = 1;
+            txtPeso.TabIndex = 2;
             txtPeso.TextChanged += txtPeso_TextChanged;
             // 
             // txtAltura
@@ -72,7 +72,7 @@
             txtAltura.Name = "txtAltura";
             txtAltura.PlaceholderText = "Insira sua altura...";
             txtAltura.Size = new Size(183, 23);
-            txtAltura.TabIndex = 1;
+            txtAltura.TabIndex = 3;
             txtAltura.TextChanged += txtPeso_TextChanged;
             // 
             // btnCalcular
@@ -81,7 +81,7 @@
             btnCalcular.Location = new Point(118, 148);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(183, 31);
-            btnCalcular.TabIndex = 2;
+            btnCalcular.TabIndex = 1;
             btnCalcular.Text = "CALCULAR";
             btnCalcular.UseVisualStyleBackColor = true;
             btnCalcular.Click += btnCalcular_Click;

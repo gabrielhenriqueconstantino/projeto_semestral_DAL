@@ -28,6 +28,7 @@
     <None Remove="img\bg_numeros.jpg" />
     <None Remove="img\bg_temp.jpg" />
     <None Remove="img\bg_tempo.jpg" />
+    <None Remove="img\bg_vetor.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -59,6 +60,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img\bg_tempo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\bg_vetor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
