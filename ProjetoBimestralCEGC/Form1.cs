@@ -125,5 +125,49 @@ namespace ProjetoBimestralCEGC
             frm.MdiParent = this;
             frm.Show();
         }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        private void faixasNuméricasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFaixasNumericas frm = new frmFaixasNumericas();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void anoBissextoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBissexto frm = new frmBissexto();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
