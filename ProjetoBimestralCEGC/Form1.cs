@@ -150,6 +150,14 @@ namespace ProjetoBimestralCEGC
             frm.Show();
         }
 
+        private void ocorrênciaDeLetrasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOcorrenciaLetra frm = new frmOcorrenciaLetra();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
         private void somaPonderadaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmsSomaElementosVetor frm = new frmsSomaElementosVetor();

@@ -29,6 +29,10 @@
     <None Remove="img\bg_temp.jpg" />
     <None Remove="img\bg_tempo.jpg" />
     <None Remove="img\bg_vetor.png" />
+    <None Remove="img\Datas.png" />
+    <None Remove="img\Letras.jpg" />
+    <None Remove="img\MenorMaior.png" />
+    <None Remove="img\Roleta.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -63,6 +67,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img\bg_vetor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\Datas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\Letras.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\MenorMaior.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\Roleta.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
