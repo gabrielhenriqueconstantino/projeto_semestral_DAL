@@ -126,7 +126,14 @@ namespace ProjetoBimestralCEGC
             frm.Show();
         }
 
-        
+        private void compararDoisArraysToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmArray frm = new frmArray();
+            frm.Load += (s, ev) => CentralizarFormulario(frm);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
         
         
         

@@ -166,7 +166,7 @@
             // faixasNuméricasToolStripMenuItem
             // 
             faixasNuméricasToolStripMenuItem.Name = "faixasNuméricasToolStripMenuItem";
-            faixasNuméricasToolStripMenuItem.Size = new Size(247, 26);
+            faixasNuméricasToolStripMenuItem.Size = new Size(243, 26);
             faixasNuméricasToolStripMenuItem.Text = "Faixas numéricas";
             faixasNuméricasToolStripMenuItem.Click += faixasNuméricasToolStripMenuItem_Click;
             // 
@@ -175,17 +175,18 @@
             compararDoisArraysToolStripMenuItem.Name = "compararDoisArraysToolStripMenuItem";
             compararDoisArraysToolStripMenuItem.Size = new Size(247, 26);
             compararDoisArraysToolStripMenuItem.Text = "Comparar dois Arrays";
+            compararDoisArraysToolStripMenuItem.Click += compararDoisArraysToolStripMenuItem_Click;
             // 
             // ocorrênciaDeLetrasToolStripMenuItem
             // 
             ocorrênciaDeLetrasToolStripMenuItem.Name = "ocorrênciaDeLetrasToolStripMenuItem";
-            ocorrênciaDeLetrasToolStripMenuItem.Size = new Size(247, 26);
+            ocorrênciaDeLetrasToolStripMenuItem.Size = new Size(243, 26);
             ocorrênciaDeLetrasToolStripMenuItem.Text = "Ocorrência de Letras";
             // 
             // anoBissextoToolStripMenuItem
             // 
             anoBissextoToolStripMenuItem.Name = "anoBissextoToolStripMenuItem";
-            anoBissextoToolStripMenuItem.Size = new Size(247, 26);
+            anoBissextoToolStripMenuItem.Size = new Size(243, 26);
             anoBissextoToolStripMenuItem.Text = "Ano Bissexto";
             anoBissextoToolStripMenuItem.Click += anoBissextoToolStripMenuItem_Click;
             // 
@@ -207,6 +208,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(816, 510);
             Controls.Add(menuStrip1);
             Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);

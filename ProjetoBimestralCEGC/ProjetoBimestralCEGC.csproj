@@ -18,6 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="img\aniversario.jpg" />
+    <None Remove="img\array.png" />
     <None Remove="img\bg.png" />
     <None Remove="img\bg_bissexto.jpg" />
     <None Remove="img\bg_div.jpeg" />
@@ -29,6 +31,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="img\aniversario.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\array.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="img\bg.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

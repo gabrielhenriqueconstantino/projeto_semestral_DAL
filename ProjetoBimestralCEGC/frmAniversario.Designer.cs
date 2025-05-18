@@ -34,19 +34,17 @@
             // 
             // txtIdade
             // 
-            txtIdade.Location = new Point(272, 129);
-            txtIdade.Margin = new Padding(3, 2, 3, 2);
+            txtIdade.Location = new Point(118, 124);
             txtIdade.Name = "txtIdade";
             txtIdade.PlaceholderText = "Digite sua idade:";
-            txtIdade.Size = new Size(110, 23);
-            txtIdade.TabIndex = 0;
+            txtIdade.Size = new Size(147, 27);
+            txtIdade.TabIndex = 2;
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(281, 187);
-            btnCalcular.Margin = new Padding(3, 2, 3, 2);
+            btnCalcular.Location = new Point(145, 171);
             btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(82, 22);
+            btnCalcular.Size = new Size(94, 29);
             btnCalcular.TabIndex = 1;
             btnCalcular.Text = "Calcular:";
             btnCalcular.UseVisualStyleBackColor = true;
@@ -54,12 +52,11 @@
             // 
             // frmAniversario
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(382, 369);
             Controls.Add(btnCalcular);
             Controls.Add(txtIdade);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "frmAniversario";
             Text = "frmAniversario";
             Load += frmAniversario_Load;
